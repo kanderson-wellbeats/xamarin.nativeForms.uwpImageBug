@@ -10,7 +10,7 @@ namespace FormsBugProject
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new FormsMainPage();
         }
 
         protected override void OnStart()

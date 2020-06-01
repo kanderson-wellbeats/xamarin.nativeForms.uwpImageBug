@@ -153,6 +153,15 @@
     <PackageReference Include="Microsoft.NETCore.UniversalWindowsPlatform">
       <Version>6.2.10</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.Forms">
+      <Version>4.4.0.991864</Version>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FormsBugProject\FormsBugProject\FormsBugProject.csproj">
+      <Project>{723bbe25-4fdb-4f71-ae55-7344067e80c2}</Project>
+      <Name>FormsBugProject</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
